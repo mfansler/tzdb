@@ -1,3 +1,12 @@
+# tzdb 0.2.0
+
+* Updated the time zone database to 2021e (#12).
+
+* Updated the embedded date library (SHA d9049ee6976f45eff434c4971baa78ff807562c4).
+
+* Fixed a Windows issue where the time zone database couldn't be found if the
+  path to it contained Unicode characters (#10).
+
 # tzdb 0.1.2
 
 * Updated the embedded date library.
